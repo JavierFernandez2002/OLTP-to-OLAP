@@ -86,4 +86,8 @@ Finally, enter the password for the postgres user and press enter
 ```
 Password:
 ```
-## Execute the next SQL Scripts in order to transform your database.
+This is the Objetive
+turn this
+<span>![</span><span>Aquí la descripción de la imagen por si no carga</span><span>]</span><span>(</span><span>https://github.com/JavierFernandez2002/OLTP-to-OLAP/blob/main/img/dvd-rental-sample-database-diagram.png</span><span>)</span>
+into this
+<span>![</span><span>Aquí la descripción de la imagen por si no carga</span><span>]</span><span>(</span><span>https://github.com/JavierFernandez2002/OLTP-to-OLAP/blob/main/img/Star%20schema.png</span><span>)</span>
