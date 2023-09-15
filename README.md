@@ -51,43 +51,8 @@ Describe how to use and query the transformed database in the project. Provide e
     .A PostgreSQL database server installed on your system. 
     .A PostgreSQL sample database called dvdrental.
 
-## Load the sample database using psql tool
-  ```
->psql
-  ```
-Second, enter the account’s information to log in to the PostgreSQL database server. You can use the default value provided by psql by pressing the Enter keyboard. However, for the password, you need to enter the one that you provided during PostgreSQL installation.
-  ```
-Server [localhost]:
-Database [postgres]:
-Port [5432]:
-Username [postgres]:
-Password for user postgres:
-  ```
-Third, enter the following CREATE DATABASE statement to create a new dvdrental database.
-```
-postgres=# CREATE DATABASE dvdrental;
-CREATE DATABASE
-```
-PostgreSQL will create a new database named dvdrental.
-
-Finally, enter the exit command to quit psql:
-```
-postgres=# exit
-```
-Then, navigate the bin folder of the PostgreSQL installation folder:
-```
-postgres=# exit
-```
-After that, use the pg_restore tool to load data into the dvdrental database:
-```
-pg_restore -U postgres -d dvdrental C:\sampledb\dvdrental.tar
-```
-Finally, enter the password for the postgres user and press enter
-```
-Password:
-```
-This is the Objetive
-turn this
-<span>![</span><span>Aquí la descripción de la imagen por si no carga</span><span>]</span><span>(</span><span>https://github.com/JavierFernandez2002/OLTP-to-OLAP/blob/main/img/dvd-rental-sample-database-diagram.png</span><span>)</span>
-into this
-<span>![</span><span>Aquí la descripción de la imagen por si no carga</span><span>]</span><span>(</span><span>https://github.com/JavierFernandez2002/OLTP-to-OLAP/blob/main/img/Star%20schema.png</span><span>)</span>
+## 1.Initial Database
+to charge the dvd rental you need to follow the next tutorial
+[https://www.postgresqltutorial.com/postgresql-getting-started/load-postgresql-sample-database/](https://www.postgresqltutorial.com/postgresql-getting-started/load-postgresql-sample-database/)
+## 2.Create Star Schema
+copy the StarSchem.sql file in the querie tool and the OLAP Schema will be created
