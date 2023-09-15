@@ -54,5 +54,6 @@ Describe how to use and query the transformed database in the project. Provide e
 ## 1.Initial Database
 to charge the dvd rental you need to follow the next tutorial
 [https://www.postgresqltutorial.com/postgresql-getting-started/load-postgresql-sample-database/](https://www.postgresqltutorial.com/postgresql-getting-started/load-postgresql-sample-database/)
+
 ## 2.Create Star Schema
 copy the StarSchem.sql file in the querie tool and the OLAP Schema will be created
